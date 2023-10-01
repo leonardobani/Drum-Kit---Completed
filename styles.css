@@ -1,19 +1,21 @@
+@font-face {
+  font-family: OpenSans;
+  src: url('font/OpenSans-Regular.ttf');
+}
+
 body {
   text-align: center;
-  background-color: #283149;
+  font-family: OpenSans;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  font-family: OpenSans;
 
 }
 
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  font-family: OpenSans;
 }
 
 .w {
@@ -61,10 +63,9 @@ footer {
   outline: none;
   border: 10px solid #404B69;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  font-family: OpenSans;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
@@ -72,5 +73,4 @@ footer {
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
 }
